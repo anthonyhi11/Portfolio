@@ -18,19 +18,19 @@
 }
 
 .young {
-    background-image: url('/Images/young-me-correct.png');
-    background-size: 140px 140px;
+    /*background-image: url('/Images/young-me-correct.png');
+    background-size: 140px 140px; */
     display: block;
     width: 140px;
     height: 140px;
     float: right;
     border-radius: 5px;
     margin: 5px;
-}
+}/*
 .young:hover {
     background-image: url('/Images/normal-me.png');
     background-size: 140x 140px;
-}
+}*/
 
 nav {
     padding: 10px;
@@ -180,8 +180,8 @@ address img {
     .young {
         float: left;
         margin: 10px;
-        background-image: url('/Images/young-me-correct.png');
-        background-size: 140px 140px;
+        /*background-image: url('/Images/young-me-correct.png');
+        background-size: 140px 140px;*/
         display: block; 
         width: 140px;
         height: 140px;
@@ -262,8 +262,9 @@ address img {
         margin-bottom: 30px;
     }
     .young {
+        /*
         background-image: url('/Images/young-me-correct.png');
-        background-size: 250px 250px;
+        background-size: 250px 250px;*/
         display: block;
         width: 250px;
         height: 250px;
@@ -272,11 +273,11 @@ address img {
         margin: 10px;
         margin-left: 40px;
         margin-right: 20px;
-    }
+    }/*
     .young:hover {
         background-image: url('/Images/normal-me.png');
         background-size: 250px 250px;
-    }
+    }*/
     p.about-me {
         margin: 25px;
     }
