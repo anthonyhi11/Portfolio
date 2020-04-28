@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title></title>
-    <link rel="stylesheet" href="main.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-    
-  </head>
-  <body>
-
-    <header id="home">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="home">
       <nav>
         <ul>
           <a href="#home"><li>Home</li></a>
@@ -19,65 +20,64 @@
           <a href="#contact"><li>Contact</li></a>
         </ul>
       </nav>
-      <h1> My name is Anthony.</h1>
-    <p>I want to write clean code and work on projects that matter.</p>
+      <h1>My name is Anthony.</h1>
+      <p>I want to write clean code and work on projects that matter.</p>
     </header>
     <main>
+      <section class="about section" id="about">
+        <div class="color-block">
+          <h2 class="about-title">About</h2>
+        </div>
+
+        <!--<div class="young"> </div>-->
+        <img src="Images/young-me-correct.png" class="young" />
+        <p class="about-me">
+          I am a sales professional in Dallas, TX currently enrolled in
+          Thinkful’s Engineering Flex program. My favorite aspect of web
+          development is the ability to create an application that not only
+          solves a problem for a user, but also looks and feels great.
+          <br /><br />Working on a team that places a high value on writing
+          maintainable, scalable, and accessible code is incredibly important to
+          me. Currently very interested in React.<br /><br />
+          In my free time, I enjoy walking my dog, seeing live music, and eating
+          a great meal with even better friends
+        </p>
+      </section>
       <section class="projects section" id="projects">
         <div class="color-block">
-            <h2 class="about-title">Projects</h2>
+          <h2 class="about-title">Projects</h2>
         </div>
-      <div class="project p1">
-        <h3 class="project-title">Bon Iver Quiz App</h3>
-        <div class="tech-used">
-          <img src="Images/icons8-html-5-50.png" class="tech" alt="html5">
-          <img src="Images/css-3.png" class="tech" alt="CSS3">
-          <img src="Images/icons8-javascript-50.png" class="tech" alt="JavaScript">
-          <img src="Images/icons8-jquery-50.png" class="tech" alt="jQuery">
-        </div>
-        <div class="projects-flex">
-         
-          <p>The goal of this application is to have a user be tested on their knowledge of my favorite band, Bon Iver. 
-          As the user progresses through the quiz, they are presented with a question and 4 options.
-         <img src="Images/options.png" class="images">Once an option 
-          is selected and submitted, they are shown if they are correct or incorrect. If incorrect, they can show the 
-          correct answer or continue on to the next question.
-          <img src="Images/incorrect.png" class="images">
-          The score is tallied up at the end and they are shown either 
-          a congratulations screen or a try again screen depending on the score. The user can then take the quiz again, if they choose.
-          <img src="Images/final-result.png" class="images">
-          </p>
-        </div>
-        <h4>Links</h4>
-        <ul class="project-links">
-          <li><a href="https://anthonyhi11.github.io/quizApp/" target="_blank">Live Page</a></li>
-          <li><a href="https://github.com/anthonyhi11/quizApp" target="_blank">GitHub Repo</a></li>
-        </ul>
-      </div>
-    </section>
-      <section class="about section" id="about">
-          <div class="color-block">
-              <h2 class="about-title">About</h2>
-            </div>
-        
-        <!--<div class="young"> </div>--> <img src='Images/young-me-correct.png' class="young">
-        <p class="about-me"> I am a sales professional in Dallas, TX currently enrolled in Thinkful’s Engineering Flex program. 
-          My favorite aspect of web development is the ability to create an application that not only solves
-           a problem for a user, but also looks and feels great. <br><br>Working on a team that places a high value
-           on writing maintainable, scalable, and accessible code is incredibly important to me. Currently very interested in React.<br><br>
-           In my free time, I enjoy walking my dog, seeing live music, and eating a great meal with even better friends</p>
+        <nav class="project-nav">
+          <li id="saturn">Saturn</li>
+          <li id="whibut">WHIBUT</li>
+          <li id="take-hike">Take A Hike</li>
+          <li id="quiz">Quiz App</li>
+        </nav>
+        <div id="project"></div>
       </section>
     </main>
     <footer>
-        <div class="color-block" id="contact">
-            <h2 class="about-title">Contact</h2>
-          </div>
-          <p class="call-to-action">Let's work together, okay?</p><br>
+      <div class="color-block" id="contact">
+        <h2 class="about-title">Contact</h2>
+      </div>
+      <p class="call-to-action">Let's work together, okay?</p>
+      <br />
       <address class="contact-info">
-        <a href="mailto:antdavhill@gmail.com"><img src="Images/icons8-email-48.png"></a>
-        <a href="https://github.com/anthonyhi11" target="_blank"><img src="Images/icons8-github-50.png"></a>
-        <a href="https://www.linkedin.com/in/anthony-hill-86285516a/" target="_blank"><img src="Images/icons8-linkedin-48.png"></a>
+        <a href="mailto:antdavhill@gmail.com"
+          ><img src="Images/icons8-email-48.png"
+        /></a>
+        <a href="https://github.com/anthonyhi11" target="_blank"
+          ><img src="Images/icons8-github-50.png"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/anthony-hill-86285516a/"
+          target="_blank"
+          ><img src="Images/icons8-linkedin-48.png"
+        /></a>
       </address>
     </footer>
-  </body>
+
+    <script src="/index.js"></script>
+    <script src="store.js"></script>
+  </body>
 </html>

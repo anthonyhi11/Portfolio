@@ -1,10 +1,10 @@
 /* DESIGN FOR MOBILE */
 
 * {
-    font-family: 'Work Sans', sans-serif;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 .images {
   height: 300px;
@@ -18,289 +18,285 @@
 }
 
 .young {
-    /*background-image: url('/Images/young-me-correct.png');
-    background-size: 140px 140px; */
-    display: block;
-    width: 140px;
-    height: 140px;
-    float: right;
-    border-radius: 5px;
-    margin: 5px;
-}/*
-.young:hover {
-    background-image: url('/Images/normal-me.png');
-    background-size: 140x 140px;
-}*/
+  display: block;
+  width: 140px;
+  height: 140px;
+  float: right;
+  border-radius: 5px;
+  margin: 5px;
+}
 
 nav {
-    padding: 10px;
+  padding: 10px;
 }
 ul {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 0px;
-    padding-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0px;
+  padding-top: 0px;
 }
- ul li {
-    display: inline-block;
-    list-style: none;
+ul li {
+  display: inline-block;
+  list-style: none;
 }
 header h1 {
-    font-size: 40px;
-    text-align: right;
-    margin-bottom: 10px;
-    padding: 8px;
-    padding-bottom: 10px;
-    padding-top: 25px;
+  font-size: 40px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 8px;
+  padding-bottom: 10px;
+  padding-top: 25px;
 }
 header p {
-    margin-top: 0px;
-    padding-top: 5px;
-    font-size: 18px;
-
+  margin-top: 0px;
+  padding-top: 5px;
+  font-size: 18px;
 }
 h2 {
-    font-size: 40px;
-    font-weight: thin;
-    padding: 10px;
+  font-size: 40px;
+  font-weight: thin;
+  padding: 10px;
 }
 h4 {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 5px;
-    padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 5px;
+  padding: 10px;
 }
 p {
-    padding: 20px;
-    margin: 8px;
-    font-size: 17px;
-    line-height: 25px;
+  padding: 20px;
+  margin: 8px;
+  font-size: 17px;
+  line-height: 25px;
 }
 
 .color-block {
-    position: relative;
-    left:0px;
-    right: 0;
-    width: 100%;
-    height: 225px;
-    background-color: #D94133;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  position: relative;
+  left: 0px;
+  right: 0;
+  width: 100%;
+  height: 225px;
+  background-color: #d94133;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .about-title {
-    position: absolute;
-    bottom: 3px;
-    color: white;
+  position: absolute;
+  bottom: 3px;
+  color: white;
 }
 .project-title {
-    font-size: 25px;
-    text-align: right;
-    margin: 5px;
-    padding: 5px;
-    margin-bottom: 4px;
+  font-size: 25px;
+  text-align: right;
+  margin: 5px;
+  padding: 5px;
+  margin-bottom: 4px;
 }
 
 .project-links {
-    display: flex;
-    padding: 20px;
-    margin-bottom: 20px;
-
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 a {
-    text-decoration: none;
-    color: #D94133;
+  text-decoration: none;
+  color: #d94133;
 }
 a:hover {
-    text-decoration: underline;
-    color: black;
+  text-decoration: underline;
+  color: black;
 }
 .tech-used {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
-    margin-top: 0px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-top: 0px;
 }
 .tech {
-    width: 25px;
-    height: 25px;
-    padding: 5px;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
 }
 .contact-info {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 address img {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 .call-to-action {
-    font-size: 22px;
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-    margin-top: 25px;
+  font-size: 22px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 25px;
 }
-
-
-
-
-
-
-
 
 /* TABLET DESIGN */
 
 @media only screen and (min-width: 480px) {
-    nav ul li {
-        font-size: 22px;
-    }
-    header h1 {
-        text-align: center;
-        margin-bottom: 15px;
-        padding-bottom: 10px;
-    }
-    p {
-        padding: 15px;
-        margin: 25px;
-        margin-right: 30px;
-        margin-left: 30px;
-        padding: 20px;
-        font-size: 20px;
-        line-height: 28px;
-    }
-    header p {
-        text-align: center;
-    }
-    .color-block {
-        height: 100px;
-    }
-    .about-title {
-        margin-bottom: 14px;
-    }
-    .young {
-        float: left;
-        margin: 10px;
-        /*background-image: url('/Images/young-me-correct.png');
+  nav ul li {
+    font-size: 22px;
+  }
+  header h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  p {
+    padding: 15px;
+    margin: 25px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  header p {
+    text-align: center;
+  }
+  .color-block {
+    height: 100px;
+  }
+  .about-title {
+    margin-bottom: 14px;
+  }
+  .young {
+    float: left;
+    margin: 10px;
+    /*background-image: url('/Images/young-me-correct.png');
         background-size: 140px 140px;*/
-        display: block; 
-        width: 140px;
-        height: 140px;
-        border-radius: 5px;
-        }   
-    
-    .project-title {
-        text-align: center;
-    }
-    .tech-used {
-        display: flex;
-        justify-content: center;
-    }
-    p.about-me {
-        margin:10px;
-    }
-    .call-to-action {
-        font-size: 35px;
-        margin: 25px;
-        
-    }
-  
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+  }
+
+  .project-title {
+    text-align: center;
+  }
+  .tech-used {
+    display: flex;
+    justify-content: center;
+  }
+  p.about-me {
+    margin: 10px;
+  }
+  .call-to-action {
+    font-size: 35px;
+    margin: 25px;
+  }
 }
 
 /* FOR LARGER SCREENS */
 
 @media only screen and (min-width: 1050px) {
-    nav ul li {
-        font-size: 30px;
-    }
-    header h1 {
-        font-size: 55px; }
+  nav ul li {
+    font-size: 30px;
+  }
+  header h1 {
+    font-size: 55px;
+  }
 
-    header p {
-        font-size: 35px;
-    }
+  header p {
+    font-size: 35px;
+  }
 
-    h4 {
-        font-size: 50px;
-        text-align: center;
-        margin-top: 5px;
-        padding: 10px;
-    } 
-    .color-block {
-        background-color: white;
-    }
-    .about-title {
-        color: #D94133;
-        font-size: 45px;
-        text-decoration: underline;
-        margin-left: 40px;
-    }
-    p {
-        font-size: 30px;
-        margin: 25px;
-        margin-right: 50px;
-        margin-left: 50px;
-        padding: 20px;
-        line-height: 40px;
-    }
-    .project-title {
-        font-size: 40px;
-        margin-top: 15px;
-    }
-    .tech {
-        width: 40px;
-        height: 40px;
-        margin: 20px;
-    }
-    .images {
-        height: 350px;
-        width: 350px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 5px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    .young {
-        /*
+  h4 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  .color-block {
+    background-color: white;
+  }
+  .about-title {
+    color: #d94133;
+    font-size: 45px;
+    text-decoration: underline;
+    margin-left: 40px;
+  }
+  p {
+    font-size: 30px;
+    margin: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    line-height: 40px;
+  }
+  .project-title {
+    font-size: 40px;
+    margin-top: 15px;
+  }
+  .tech {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+  }
+  .images {
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .young {
+    /*
         background-image: url('/Images/young-me-correct.png');
         background-size: 250px 250px;*/
-        display: block;
-        width: 250px;
-        height: 250px;
-        float: left;
-        border-radius: 10px;
-        margin: 10px;
-        margin-left: 40px;
-        margin-right: 20px;
-    }/*
+    display: block;
+    width: 250px;
+    height: 250px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+  } /*
     .young:hover {
         background-image: url('/Images/normal-me.png');
         background-size: 250px 250px;
     }*/
-    p.about-me {
-        margin: 25px;
-    }
-    .project-links {
-        font-size: 25px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px;
-        margin: 15px;
-    }
-    .project-links li {
-        margin:10px;
+  p.about-me {
+    margin: 25px;
+  }
+  .project-links {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 15px;
+  }
+  .project-links li {
+    margin: 10px;
+  }
+  .call-to-action {
+    font-size: 25px;
+  }
+  address img {
+    height: 50px;
+    width: 50px;
+  }
+  .contact-info {
+    display: static;
+  }
 
-    }
-    .call-to-action {
-        font-size: 25px;
-    }
-    address img {
-        height: 50px;
-        width: 50px;
-    }
-    .contact-info {
-        display: static;
-    }
+  .project-nav {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+  .project-nav li {
+    list-style: none;
+  }
+
+  .project-nav li:hover {
+    cursor: pointer;
+  }
 }

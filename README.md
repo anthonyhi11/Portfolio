@@ -1,1 +1,3 @@
-Portfolio site for Anthony Hill (aspiring web dev)
+Portfolio site for Anthony Hill (junior full-stack developer)
+
+
