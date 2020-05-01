@@ -6,54 +6,149 @@
     <title></title>
     <link rel="stylesheet" href="main.css" type="text/css" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <header id="home">
-      <nav>
-        <ul>
-          <a href="#home"><li>Home</li></a>
-          <a href="#about"><li>About</li></a>
-          <a href="#projects"><li>Projects</li></a>
-          <a href="#contact"><li>Contact</li></a>
-        </ul>
-      </nav>
-      <h1>My name is Anthony.</h1>
-      <p>I want to write clean code and work on projects that matter.</p>
-    </header>
-    <main>
-      <section class="about section" id="about">
-        <div class="color-block">
-          <h2 class="about-title">About</h2>
-        </div>
-
-        <!--<div class="young"> </div>-->
-        <img src="Images/young-me-correct.png" class="young" />
-        <p class="about-me">
-          I am a sales professional in Dallas, TX currently enrolled in
-          Thinkful’s Engineering Flex program. My favorite aspect of web
-          development is the ability to create an application that not only
-          solves a problem for a user, but also looks and feels great.
-          <br /><br />Working on a team that places a high value on writing
-          maintainable, scalable, and accessible code is incredibly important to
-          me. Currently very interested in React.<br /><br />
-          In my free time, I enjoy walking my dog, seeing live music, and eating
-          a great meal with even better friends
-        </p>
-      </section>
-      <section class="projects section" id="projects">
-        <div class="color-block">
-          <h2 class="about-title">Projects</h2>
-        </div>
-        <nav class="project-nav">
-          <li id="saturn">Saturn</li>
-          <li id="whibut">WHIBUT</li>
-          <li id="take-hike">Take A Hike</li>
-          <li id="quiz">Quiz App</li>
+    <section class="home-section">
+      <div class="left-side">
+        <nav>
+          <ul>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
         </nav>
-        <div id="project"></div>
+        <div class="hero-container">
+          <h2 class="secondary-hero">Sup y'all,</h2>
+          <h1 class="hero">it's Anthony.</h1>
+        </div>
+        <div class="contact-container">
+          <p class="contact-headline">Let's work together.</p>
+          <address class="contact-top">
+            <a href="mailto:antdavhill@gmail.com"
+              ><img src="Images/icons8-email-48.png"
+            /></a>
+            <a href="https://github.com/anthonyhi11" target="_blank"
+              ><img src="Images/icons8-github-50.png" class="png-img"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/anthony-hill-86285516a/"
+              target="_blank"
+              ><img src="Images/icons8-linkedin-48.png"
+            /></a>
+          </address>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="headline-container">
+          <h3 class="main-headline">
+            I'm a Software Developer and Problem Solver in Dallas, TX
+          </h3>
+          <p class="secondary-headline">
+            I want to write clean code and work on projects that matter.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="projects-section" id="projects">
+        <div class="project-header">
+          <h2 class="section-title">Projects</h2>
+          <nav class="project-nav">
+            <li id="saturn">Saturn</li>
+            <li id="whibut">WHIBUT</li>
+            <li id="take-hike">Take A Hike</li>
+            <li id="quiz">Quiz App</li>
+          </nav>
+        </div>
+        <div id="project">
+          <div class="project-container">
+            <img
+              src="Images/desktop-mockup.png"
+              alt="app-mockup"
+              class="desktop-mockup"
+            />
+            <div class="project-info-container">
+              <h2 class="project-name">Saturn</h2>
+              <div class="tech-used">
+                <img
+                  src="Images/icons8-html-5-50.png"
+                  class="tech"
+                  alt="html5"
+                />
+                <img src="Images/css-3.png" class="tech" alt="CSS3" />
+                <img
+                  src="Images/icons8-javascript-50.png"
+                  class="tech"
+                  alt="JavaScript"
+                />
+                <img
+                  src="images/icons8-jquery-50.png"
+                  class="tech"
+                  alt="jQuery"
+                />
+              </div>
+              <p class="project-description">
+                Saturn is a project management tool for remote software
+                development teams. Working on a software project remotely can
+                increase the difficulty of keeping track of feature requests
+                and/or bugs. The typical use case of this application would be a
+                small team of 2-4 developers working remotely. I plan on using
+                Saturn to work on open source projects with other junior
+                developers as I continue my job search.
+              </p>
+              <div class="buttons">
+                <a
+                  href="https://github.com/anthonyhi11/saturn-client"
+                  target="_blank"
+                  class="repo-button"
+                  >REPO</a
+                >
+                <a
+                  href="https://saturn-blush.now.sh/"
+                  target="_blank"
+                  class="live-button"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-section" id="about">
+        <div class="main-copy">
+          <div id="profile-pic">
+            <img src="Images/young-me.png" class="young" />
+          </div>
+          <div class="about-copy">
+            <h2 class="about-title">It Me</h2>
+            <p id="about-me" class="about-me-p">
+              My favorite aspect of web development is the ability to create an
+              application that not only solves a problem for a user, but also
+              looks and feels great.
+              <br /><br />Working on a team that places a high value on writing
+              maintainable, scalable, and accessible code is incredibly
+              important to me. Currently very interested in React.<br /><br />
+              In my free time, I enjoy walking my dog, seeing live music, and
+              eating a great meal with even better friends
+            </p>
+          </div>
+        </div>
+        <div class="quote">
+          <h3 class="actual-quote">"He handles conflict incredibly well"</h3>
+          <p class="quoter">- My therapist, Sharon</p>
+        </div>
       </section>
     </main>
     <footer>
