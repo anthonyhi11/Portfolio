@@ -39,7 +39,7 @@ const quiz = `<div class="project-container">
 
 const whibut = `<div class="project-container">
 <img
-  src="Images/desktop-mockup.png"
+  src="Images/whibut-mockup.gif"
   alt="app-mockup"
   class="desktop-mockup"
 />

@@ -5,26 +5,41 @@ document.getElementById("whibut").addEventListener("click", showWhibut);
 document.getElementById("take-hike").addEventListener("click", showTakeAHike);
 
 document.getElementById("quiz").addEventListener("click", showQuiz);
-
-document.getElementById("about-me").addEventListener("mouseover", showMe);
+let whibutElement = document.getElementById("whibut");
+let takeElement = document.getElementById("take-hike");
+let saturnElement = document.getElementById("saturn");
+let quizElement = document.getElementById("quiz");
+// document.getElementById("about-me").addEventListener("mouseover", showMe);
 
 function showSaturn() {
-  console.log("clicked");
   document.getElementById("project").innerHTML = saturn;
+  saturnElement.classList.toggle("active");
+  takeElement.classList.remove("active");
+  quizElement.classList.remove("active");
+  whibutElement.classList.remove("active");
 }
 
 function showWhibut() {
-  console.log("clicked");
   document.getElementById("project").innerHTML = whibut;
+  whibutElement.classList.toggle("active");
+  saturnElement.classList.remove("active");
+  takeElement.classList.remove("active");
+  quizElement.classList.remove("active");
 }
 
 function showTakeAHike() {
-  console.log("clicked");
   document.getElementById("project").innerHTML = takeAHike;
+  takeElement.classList.toggle("active");
+  quizElement.classList.remove("active");
+  saturnElement.classList.remove("active");
+  whibutElement.classList.remove("active");
 }
 function showQuiz() {
-  console.log("clicked");
   document.getElementById("project").innerHTML = quiz;
+  quizElement.classList.toggle("active");
+  saturnElement.classList.remove("active");
+  whibutElement.classList.remove("active");
+  takeElement.classList.remove("active");
 }
 
 // function showMe() {
