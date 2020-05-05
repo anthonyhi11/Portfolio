@@ -19,7 +19,7 @@ const quiz = `<div class="project-container">
       alt="JavaScript"
     />
     <img
-      src="images/icons8-jquery-50.png"
+      src="Images/icons8-jquery-50.png"
       class="tech"
       alt="jQuery"
     />
@@ -58,7 +58,7 @@ const whibut = `<div class="project-container">
       alt="JavaScript"
     />
     <img
-      src="images/icons8-jquery-50.png"
+      src="Images/icons8-jquery-50.png"
       class="tech"
       alt="jQuery"
     />
@@ -102,7 +102,7 @@ const takeAHike = `<div class="project-container">
       alt="JavaScript"
     />
     <img
-      src="images/icons8-jquery-50.png"
+      src="Images/icons8-jquery-50.png"
       class="tech"
       alt="jQuery"
     />
@@ -150,7 +150,7 @@ const saturn = `<div class="project-container">
       alt="JavaScript"
     />
     <img
-      src="images/icons8-jquery-50.png"
+      src="Images/icons8-jquery-50.png"
       class="tech"
       alt="jQuery"
     />
