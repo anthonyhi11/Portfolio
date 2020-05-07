@@ -25,7 +25,7 @@ const quiz = `<div class="project-container">
     />
   </div>
   <p class="project-description">
-  This was one of the very first projects I worked on. Just a very basic look at DOM 
+  This was one of the very first projects I worked on. A basic look at DOM 
   manipulation with jQuery. I had fun thinking of questions and making the quiz difficult... 
   Try it out if you're a Bon Iver fan!
 
@@ -53,21 +53,26 @@ const whibut = `<div class="project-container">
     />
     <img src="Images/css-3.png" class="tech" alt="CSS3" />
     <img
-      src="Images/icons8-javascript-50.png"
-      class="tech"
-      alt="JavaScript"
-    />
-    <img
-      src="Images/icons8-jquery-50.png"
-      class="tech"
-      alt="jQuery"
-    />
+    src="Images/react.png"
+    class="tech"
+    alt="React"
+  />
+  <img
+    src="Images/node.png"
+    class="tech"
+    alt="Node"
+  />
+  <img
+    src="Images/postgresql.png"
+    class="tech"
+    alt="postgresql"
+  />
   </div>
   <p class="project-description">
-  WHIBUT - What Have I Been Up To? Is a full-stack application built with the PERN stack. It allows 
-  users to create an account and begin saving activities they have done. Activity categories include, Movies, TV shows, 
-  Restaurants, and Books. It's like your own personal GoodReads, IMDb, YELP all rolled into one. Now you'll never have to google what the name of that
-   random bar was that you found the great cheeseburger deal
+  WHIBUT - What Have I Been Up To? A full-stack application built with the PERN stack. It allows 
+  users to create an account and begin saving activities they have done. Activity categories include: movies, TV shows, 
+  restaurants, and books. It's like your own personal GoodReads, IMDb, and YELP all rolled into one. Now you'll never have to google what the name of that
+   random bar was that you found the great cheeseburger deal.
   </p>
   <div class="buttons">
                 <a href="https://github.com/anthonyhi11/whibut-client" class="repo-button"target="_blank">REPO</a>
@@ -110,7 +115,7 @@ const takeAHike = `<div class="project-container">
   <p class="project-description">
   A simple trail finder focused on the bare minimum information a traveling hobbyist needs to know. 
   Enter the city and state you're in and quickly see the nearest trails with 5 day forecast. This 
-  was an early project giving me experience using multiple external APIs and formatting the data returned.
+  was a great project giving me experience using multiple external APIs and formatting the data returned. I often use it when my wife and I go on road trips.
   </p>
   <div class="buttons">
   <a
@@ -145,15 +150,20 @@ const saturn = `<div class="project-container">
     />
     <img src="Images/css-3.png" class="tech" alt="CSS3" />
     <img
-      src="Images/icons8-javascript-50.png"
-      class="tech"
-      alt="JavaScript"
-    />
-    <img
-      src="Images/icons8-jquery-50.png"
-      class="tech"
-      alt="jQuery"
-    />
+    src="Images/react.png"
+    class="tech"
+    alt="React"
+  />
+  <img
+    src="Images/node.png"
+    class="tech"
+    alt="Node"
+  />
+  <img
+    src="Images/postgresql.png"
+    class="tech"
+    alt="postgresql"
+  />
   </div>
   <p class="project-description">
     Saturn is a project management tool for remote software
@@ -181,4 +191,5 @@ const saturn = `<div class="project-container">
 </div>
 </div>`;
 
-let currentMe = `<img src="Images/normal-me.png" alt="picture of me" class="young"/>`;
+let currentMe = `<img src="Images/normal-me.jpeg" alt="picture of me" class="young"/>`;
+let youngMe = `<img src="Images/young-me.png" alt="picture of me" class="young" />`;

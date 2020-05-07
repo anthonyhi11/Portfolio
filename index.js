@@ -9,7 +9,9 @@ let whibutElement = document.getElementById("whibut");
 let takeElement = document.getElementById("take-hike");
 let saturnElement = document.getElementById("saturn");
 let quizElement = document.getElementById("quiz");
-// document.getElementById("about-me").addEventListener("mouseover", showMe);
+document.getElementById("about-me").addEventListener("mouseover", showMe);
+document.getElementById("profile-pic").addEventListener("mouseover", showNewMe);
+document.getElementById("profile-pic").addEventListener("mouseleave", showMe);
 
 function showSaturn() {
   document.getElementById("project").innerHTML = saturn;
@@ -42,6 +44,10 @@ function showQuiz() {
   takeElement.classList.remove("active");
 }
 
-// function showMe() {
-//   document.getElementById("profile-pic").innerHTML = currentMe;
-// }
+function showMe() {
+  document.getElementById("profile-pic").innerHTML = currentMe;
+}
+
+function showNewMe() {
+  document.getElementById("profile-pic").innerHTML = youngMe;
+}
