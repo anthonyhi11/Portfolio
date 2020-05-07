@@ -1,11 +1,10 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   /* DESIGN FOR Desktop */
 
   * {
     font-family: "Bevan";
     padding: 0px;
     margin: 0px;
-    /* height: fit-content; */
     font-weight: normal;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -190,8 +189,8 @@
   }
 
   .desktop-mockup {
-    width: 806px;
-    height: 476px;
+    width: 656px;
+    height: 496px;
     margin-left: 30px;
   }
   .project-name {
@@ -448,7 +447,7 @@
     justify-content: space-evenly;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   /* DESIGN FOR Desktop */
 
   * {

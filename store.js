@@ -1,6 +1,6 @@
 const quiz = `<div class="project-container">
 <img
-  src="Images/desktop-mockup.png"
+  src="Images/mockup-quiz.gif"
   alt="app-mockup"
   class="desktop-mockup"
 />
@@ -39,7 +39,7 @@ const quiz = `<div class="project-container">
 
 const whibut = `<div class="project-container">
 <img
-  src="Images/whibut-mockup.gif"
+  src="Images/mockup-whibut.gif"
   alt="app-mockup"
   class="desktop-mockup"
 />
@@ -83,7 +83,7 @@ const whibut = `<div class="project-container">
 
 const takeAHike = `<div class="project-container">
 <img
-  src="Images/desktop-mockup.png"
+  src="Images/mockup-hike.gif"
   alt="app-mockup"
   class="desktop-mockup"
 />
@@ -131,7 +131,7 @@ const takeAHike = `<div class="project-container">
 
 const saturn = `<div class="project-container">
 <img
-  src="Images/desktop-mockup.png"
+  src="Images/mockup-saturn.gif"
   alt="app-mockup"
   class="desktop-mockup"
 />
