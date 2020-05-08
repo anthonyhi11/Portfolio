@@ -115,7 +115,7 @@ const takeAHike = `<div class="project-container">
   </div>
   <p class="project-description">
   A simple trail finder focused on the bare minimum information a traveling hobbyist needs to know. 
-  Enter the city and state you're in and quickly see the nearest trails with 5 day forecast. This 
+  Enter the city and state you're in and quickly see the nearest trails with a 5-day forecast. This 
   was a great project giving me experience using multiple external APIs and formatting the data returned. The typical use case is for anyone who enjoys the outdoors and traveling. I built Take A Hike so I could find trails when my wife and I go on road trips.
   </p>
   <div class="buttons">
