@@ -90,7 +90,7 @@
     justify-content: flex-start;
     margin-left: 17%;
   }
-  nav li {
+  nav a {
     color: white;
     list-style: none;
     font-family: "Abel";
@@ -165,14 +165,14 @@
     justify-content: space-evenly;
     margin-left: 13%;
   }
-  .project-nav li {
+  .project-nav div {
     color: #2d2d2d;
     font-size: 24px;
     font-weight: normal;
     margin-right: 90px;
     font-family: "Abel";
   }
-  .project-nav li:hover {
+  .project-nav div:hover {
     cursor: pointer;
     border-bottom: solid 2px #d94133;
     transform: 1s;
@@ -547,7 +547,7 @@
     justify-content: flex-start;
     margin-left: 17%;
   }
-  nav li {
+  nav a {
     color: white;
     list-style: none;
     font-family: "Abel";
@@ -624,14 +624,14 @@
     justify-content: space-evenly;
     margin-left: 15%;
   }
-  .project-nav li {
+  .project-nav div {
     color: #2d2d2d;
     font-size: 18px;
     font-weight: normal;
     margin-right: 50px;
     font-family: "Abel";
   }
-  .project-nav li:hover {
+  .project-nav div:hover {
     cursor: pointer;
     border-bottom: 2px solid #d94133;
 
@@ -1011,7 +1011,7 @@
   .top-nav {
     text-align: center;
   }
-  nav li {
+  nav a {
     color: white;
     list-style: none;
     font-family: "Abel";
@@ -1094,14 +1094,14 @@
     width: 100%;
     margin-left: 0px;
   }
-  .project-nav li {
+  .project-nav div {
     color: #2d2d2d;
     margin-right: 0px;
     font-size: 18px;
     font-weight: normal;
     font-family: "Abel";
   }
-  .project-nav li:hover {
+  .project-nav div:hover {
     cursor: pointer;
     border-bottom: 2px solid #d94133;
     transform: 1s;
@@ -1484,7 +1484,7 @@
   .top-nav {
     text-align: center;
   }
-  nav li {
+  nav a {
     color: white;
     list-style: none;
     font-family: "Abel";
@@ -1567,14 +1567,14 @@
     width: 100%;
     margin-left: 0px;
   }
-  .project-nav li {
+  .project-nav div {
     color: #2d2d2d;
     margin-right: 0px;
     font-size: 18px;
     font-weight: normal;
     font-family: "Abel";
   }
-  .project-nav li:hover {
+  .project-nav div:hover {
     cursor: pointer;
     border-bottom: 2px solid #d94133;
     transform: 1s;
@@ -1967,7 +1967,7 @@
     text-align: center;
     margin-top: 10%;
   }
-  nav li {
+  nav a {
     color: white;
     list-style: none;
     font-family: "Abel";
@@ -2051,14 +2051,14 @@
     width: 100%;
     margin-left: 0px;
   }
-  .project-nav li {
+  .project-nav div {
     color: #2d2d2d;
     margin-right: 0px;
     font-size: 13px;
     font-weight: normal;
     font-family: "Abel";
   }
-  .project-nav li:hover {
+  .project-nav div:hover {
     cursor: pointer;
     border-bottom: 2px solid #d94133;
     transform: 1s;
@@ -2237,6 +2237,9 @@
     color: #717171;
     margin-top: 15px;
     font-size: 17px;
+  }
+  nav {
+    margin-top: 20px;
   }
   .images {
     height: 300px;
@@ -2452,6 +2455,9 @@
     margin-left: 0;
     padding-left: 0px;
   }
+  nav {
+    margin-top: 20px;
+  }
   nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -2464,7 +2470,7 @@
     text-align: center;
     margin-top: 10%;
   }
-  nav li {
+  nav a {
     color: white;
     list-style: none;
     font-family: "Abel";
@@ -2547,14 +2553,14 @@
     width: 100%;
     margin-left: 0px;
   }
-  .project-nav li {
+  .project-nav div {
     color: #2d2d2d;
     margin-right: 0px;
     font-size: 13px;
     font-weight: normal;
     font-family: "Abel";
   }
-  .project-nav li:hover {
+  .project-nav div:hover {
     cursor: pointer;
     border-bottom: 2px solid #d94133;
     transform: 1s;

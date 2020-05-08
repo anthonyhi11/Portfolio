@@ -27,7 +27,7 @@ const quiz = `<div class="project-container">
   <p class="project-description">
   This was one of the very first projects I worked on. A basic look at DOM 
   manipulation with jQuery. I had fun thinking of questions and making the quiz difficult... 
-  Try it out if you're a Bon Iver fan!
+  Try it out if you're a Bon Iver fan! I bet it stumps you...
 
   </p>
   <div class="buttons">
@@ -71,7 +71,8 @@ const whibut = `<div class="project-container">
   <p class="project-description">
   WHIBUT - What Have I Been Up To? A full-stack application built with the PERN stack. It allows 
   users to create an account and begin saving activities they have done. Activity categories include: movies, TV shows, 
-  restaurants, and books. It's like your own personal GoodReads, IMDb, and YELP all rolled into one. Now you'll never have to google what the name of that
+  restaurants, and books. I built this app so I could consolidate all my accounts like GoodReads, IMDb, and YELP. The app is meant for anyone who enjoys binging shows, movies, or eating out!
+ Now you'll never have to google what the name of that
    random bar was that you found the great cheeseburger deal.
   </p>
   <div class="buttons">
@@ -115,7 +116,7 @@ const takeAHike = `<div class="project-container">
   <p class="project-description">
   A simple trail finder focused on the bare minimum information a traveling hobbyist needs to know. 
   Enter the city and state you're in and quickly see the nearest trails with 5 day forecast. This 
-  was a great project giving me experience using multiple external APIs and formatting the data returned. I often use it when my wife and I go on road trips.
+  was a great project giving me experience using multiple external APIs and formatting the data returned. The typical use case is for anyone who enjoys the outdoors and traveling. I built Take A Hike so I could find trails when my wife and I go on road trips.
   </p>
   <div class="buttons">
   <a
@@ -166,13 +167,15 @@ const saturn = `<div class="project-container">
   />
   </div>
   <p class="project-description">
-    Saturn is a project management tool for remote software
-    development teams. Working on a software project remotely can
-    increase the difficulty of keeping track of feature requests
-    and/or bugs. The typical use case of this application would be a
-    small team of 2-4 developers working remotely. I plan on using
-    Saturn to work on open source projects with other junior
-    developers as I continue my job search.
+  Saturn is a project management tool for remote software
+  development teams. Working on a software project remotely can
+  increase the difficulty of keeping track of feature requests
+  and/or bugs. The typical use case of this application would be a
+  small team of 2-4 developers working remotely. I was inspired to
+  build this while being quarantined and wanting to collaborate
+  with other developers. I plan on using Saturn to work on open
+  source projects with other junior developers as I continue my
+  job search.
   </p>
   <div class="buttons">
   <a
